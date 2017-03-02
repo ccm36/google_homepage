@@ -1,0 +1,97 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+li {
+	float: left;
+}
+a {
+	display: block;
+	padding: 8px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+
+}
+li a:hover {
+	text-decoration: underline;
+}
+li a:visited {
+	text-decoration: none;
+}
+
+.google {
+	display: block;
+	position: relative;
+	padding-top: 200px;
+	left: 40%;
+	height: 92px;
+	width: 272px;
+}
+
+.nav_bar {
+	margin-top: 8px;
+	padding-right: 10px;
+	color: #757575;
+}
+
+#option {
+	margin-top: 4px;
+	margin-right: 11px;
+	height: 22px; width: 22px;
+}
+
+.footer {
+	bottom: 0;
+	height: 10px;
+	position: absolute;
+	width: 100%;
+	padding-bottom: 30px;
+	background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #757575;
+}
+
+#sign_in {
+	border: 1px solid #177fef;
+	border-radius: 3px;
+	color: white;
+	background-color: #177fef;
+	margin-top: 8px;
+	margin-right: 18px;
+}
+
+#search_bar {
+	position: relative;
+	top: 30px;
+	left: 29%;
+	height: 40px;
+	width: 500px;
+	border: 1px solid #e2e2e2;
+	box-shadow: 2px 2px 1px #dadada;
+}
+
+.button {
+	position: relative;
+	top: 55px;
+	left: 40%;
+	height: 35px;
+	width: 130px;
+	color: #757575;
+	background:#f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#microphone {
+	float: left;
+	position: relative;
+	top: -39px;
+	left: 71.5%;
+	height: 26px; width: 26px;
+}
